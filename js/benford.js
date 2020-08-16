@@ -1,11 +1,12 @@
-const firstDigits = data.map(function (item, index, array)
-{
-    return item.toString()[0];
-});
 
 const bPercentages = [0, 0.301, 0.176, 0.125, 0.097, 0.079, 0.067, 0.058, 0.051, 0.046]; // (Math.log10(n + 1) - Math.log10(n)), on constants for speed
 let calculateBenford = function (data)
 {    
+    const firstDigits = data.map(function (item, index, array)
+    {
+        return item.toString()[0];
+    });
+
     let results = [];
     const firstDigitFrequencies = getDigitsFrequencies(firstDigits);
 
