@@ -1,0 +1,15 @@
+{
+  "name": "benford",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "get-image-data": "5.0.0",
+    "sharp": "0.25.4"
+  }
+}
